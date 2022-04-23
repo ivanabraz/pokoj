@@ -1,38 +1,202 @@
-.App {
-  text-align: center;
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* GT Flexa */
+/* Thin */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 200;
+  font-style: normal;
+  src: url(./fonts/gtflexa/GTFlexa-Thin.otf) format('opentype');
+}
+/* Light */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 300;
+  font-style: normal;
+  src: url(./fonts/gtflexa/GTFlexa-Light.otf) format('opentype');
+}
+/* Regular */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 400;
+  font-style: normal;
+  src: url(./fonts/gtflexa/GTFlexa-Regular.otf) format('opentype');
+}
+/* Medium */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 500;
+  font-style: normal;
+  src: url(./fonts/gtflexa/GTFlexa-Medium.otf) format('opentype');
+}
+/* Bold */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 600;
+  font-style: normal;
+  src: url(./fonts/gtflexa/GTFlexa-Bold.otf) format('opentype');
+}
+/* Black */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 700;
+  font-style: normal;
+  src: url(./fonts/gtflexa/GTFlexa-Black.otf) format('opentype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* GT Flexa italic */
+/* Thin italic */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 200;
+  font-style: italic;
+  src: url(./fonts/gtflexa/GTFlexa-ThinItalic.otf) format('opentype');
+}
+/* Light italic */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 300;
+  font-style: italic;
+  src: url(./fonts/gtflexa/GTFlexa-LightItalic.otf) format('opentype');
+}
+/* Regular italic */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 400;
+  font-style: italic;
+  src: url(./fonts/gtflexa/GTFlexa-RegularItalic.otf) format('opentype');
+}
+/* Medium italic */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 500;
+  font-style: italic;
+  src: url(./fonts/gtflexa/GTFlexa-MediumItalic.otf) format('opentype');
+}
+/* Bold italic */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 600;
+  font-style: italic;
+  src: url(./fonts/gtflexa/GTFlexa-BoldItalic.otf) format('opentype');
+}
+/* Black italic */
+@font-face {
+  font-family: 'GTFlexa';
+  font-weight: 700;
+  font-style: italic;
+  src: url(./fonts/gtflexa/GTFlexa-BlackItalic.otf) format('opentype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styles */
+body{
+  background-color: #000;
+  font-family: 'GTFlexa', sans-serif;
+  font-weight: 400;
+  /* color: #bcbec0; */
+}
+a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Marquee */
+.marquee-container:not(.horizontal)::before {
+  background-color: transparent !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+}
+.marquee-container:not(.horizontal)::after {
+  background-color: transparent !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+}
+.marquee-container.horizontal::before {
+  background-color: transparent !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+}
+.marquee-container.horizontal::after {
+  background-color: transparent !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+}
+.marquee-item{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column !important;
+  position: relative !important;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Animations */
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+.animate-spin {
+  animation: spin 10s linear infinite;
+}
+.animate-spin-speed-15s {
+  animation: spin 15s linear infinite;
+}
+.animate-spin-speed-25s {
+  animation: spin 25s linear infinite;
+}
+.animate-spin-speed-35s {
+  animation: spin 35s linear infinite;
+}
+.animate-spin-speed-45s {
+  animation: spin 45s linear infinite;
+}
+.animate-spin-speed-55s {
+  animation: spin 55s linear infinite;
+}
+.animate-spin-speed-65s {
+  animation: spin 65s linear infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@-moz-keyframes spin-acw {
+  from { -moz-transform: rotate(360deg); }
+  to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin-acw {
+  from { -webkit-transform: rotate(360deg); }
+  to { -webkit-transform: rotate(0deg); }
+}
+@keyframes spin-acw {
+  from {transform:rotate(360deg);}
+  to {transform:rotate(0deg);}
+}
+.animate-spin-acw-speed-15s {
+  animation: spin-acw 15s linear infinite;
+}
+.animate-spin-acw-speed-25s {
+  animation: spin-acw 25s linear infinite;
+}
+.animate-spin-acw-speed-35s {
+  animation: spin-acw 35s linear infinite;
+}
+.animate-spin-acw-speed-45s {
+  animation: spin-acw 45s linear infinite;
+}
+.animate-spin-acw-speed-55s {
+  animation: spin-acw 55s linear infinite;
+}
+.animate-spin-acw-speed-65s {
+  animation: spin-acw 65s linear infinite;
 }
