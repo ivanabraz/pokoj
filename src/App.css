@@ -102,6 +102,9 @@ body{
 a {
   text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+} 
 
 /* Marquee */
 .marquee-container:not(.horizontal)::before {
@@ -199,4 +202,42 @@ a {
 }
 .animate-spin-acw-speed-65s {
   animation: spin-acw 65s linear infinite;
+}
+
+
+@-moz-keyframes wiggle {
+  0% { -moz-transform: rotate(-10deg); }
+  50% { -moz-transform: rotate(10deg); }
+  100% { -moz-transform: rotate(-10deg); }
+}
+@-webkit-keyframes wiggle {
+  0% { -webkit-transform: rotate(-10deg); }
+  50% { -webkit-transform: rotate(10deg); }
+  100% { -webkit-transform: rotate(-10deg); }
+}
+@keyframes wiggle {
+  0% {transform:rotate(-10deg);}
+  50% {transform:rotate(10deg);}
+  100% {transform:rotate(-10deg);}
+}
+.animate-wiggle {
+  animation: wiggle 7s ease-in-out infinite;
+}
+.animate-wiggle-speed-15s {
+  animation: wiggle 15s linear infinite;
+}
+.animate-wiggle-speed-25s {
+  animation: wiggle 25s linear infinite;
+}
+.animate-wiggle-speed-35s {
+  animation: wiggle 35s linear infinite;
+}
+.animate-wiggle-speed-45s {
+  animation: wiggle 45s linear infinite;
+}
+.animate-wiggle-speed-55s {
+  animation: wiggle 55s linear infinite;
+}
+.animate-wiggle-speed-65s {
+  animation: wiggle 65s linear infinite;
 }
