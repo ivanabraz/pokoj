@@ -7,95 +7,95 @@
 /* GT Flexa */
 /* Thin */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 200;
   font-style: normal;
-  src: url(./fonts/gtflexa/GTFlexa-Thin.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-Thin.otf) format('opentype');
 }
 /* Light */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 300;
   font-style: normal;
-  src: url(./fonts/gtflexa/GTFlexa-Light.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-Light.otf) format('opentype');
 }
 /* Regular */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 400;
   font-style: normal;
-  src: url(./fonts/gtflexa/GTFlexa-Regular.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-Regular.otf) format('opentype');
 }
 /* Medium */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 500;
   font-style: normal;
-  src: url(./fonts/gtflexa/GTFlexa-Medium.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-Medium.otf) format('opentype');
 }
 /* Bold */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 600;
   font-style: normal;
-  src: url(./fonts/gtflexa/GTFlexa-Bold.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-Bold.otf) format('opentype');
 }
 /* Black */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 700;
   font-style: normal;
-  src: url(./fonts/gtflexa/GTFlexa-Black.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-Black.otf) format('opentype');
 }
 
 /* GT Flexa italic */
 /* Thin italic */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 200;
   font-style: italic;
-  src: url(./fonts/gtflexa/GTFlexa-ThinItalic.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-ThinItalic.otf) format('opentype');
 }
 /* Light italic */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 300;
   font-style: italic;
-  src: url(./fonts/gtflexa/GTFlexa-LightItalic.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-LightItalic.otf) format('opentype');
 }
 /* Regular italic */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 400;
   font-style: italic;
-  src: url(./fonts/gtflexa/GTFlexa-RegularItalic.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-RegularItalic.otf) format('opentype');
 }
 /* Medium italic */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 500;
   font-style: italic;
-  src: url(./fonts/gtflexa/GTFlexa-MediumItalic.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-MediumItalic.otf) format('opentype');
 }
 /* Bold italic */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 600;
   font-style: italic;
-  src: url(./fonts/gtflexa/GTFlexa-BoldItalic.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-BoldItalic.otf) format('opentype');
 }
 /* Black italic */
 @font-face {
-  font-family: 'GTFlexa';
+  font-family: 'GTF';
   font-weight: 700;
   font-style: italic;
-  src: url(./fonts/gtflexa/GTFlexa-BlackItalic.otf) format('opentype');
+  src: url(./fonts/gtf/gtf-BlackItalic.otf) format('opentype');
 }
 
 /* Styles */
 body{
   background-color: #000;
-  font-family: 'GTFlexa', sans-serif;
+  font-family: 'GTF', sans-serif;
   font-weight: 400;
   /* color: #bcbec0; */
 }
