@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 function HeroBgScroller(HeroBgScrollerProps) {
     return (
         <Fragment>
-            <div className="flex w-100 h-[80vh] relative items-center justify-center overflow-hidden" id={HeroBgScrollerProps.sectionId}>
+            <div className="flex w-100 h-[90vh] relative items-center justify-center overflow-hidden" id={HeroBgScrollerProps.sectionId}>
                 <Marquee
                     duration={10000}
                     background="#000"
@@ -38,7 +38,11 @@ function HeroBgScroller(HeroBgScrollerProps) {
                     <p className='text-[#bcbec0] font-light text-xl'>
                         {HeroBgScrollerProps.textLine2}
                     </p>
-                    <Link to={`#${HeroBgScrollerProps.arrowLink}`} className='text-[#bcbec0] font-regular z-10 text-4xl'>
+                    <Link 
+                        to={`#${HeroBgScrollerProps.arrowLink}`} 
+                        className='text-[#bcbec0] font-regular z-10 text-4xl 
+                        pt-10 animate-[bounce_1.2s_infinite]'
+                    >
                         ↓
                     </Link>
                 </div>
