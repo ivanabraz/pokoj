@@ -4,8 +4,8 @@ import Marquee from 'react-easy-marquee';
 const TextoPathBox = (TextoPathBoxProps) => {
             return(
                 <Fragment>
-                    <Marquee duration={70000} axis="X" background="#bcbec0" height="250px" width="100%">
-                        <p className='text-[#000] text-[15rem] xs:text-9xl sm:text-9xl md:text-9xl lg:text-9xl xl:text-[10rem]'>{TextoPathBoxProps.text}</p>
+                    <Marquee duration={70000} axis="X" reverse={TextoPathBoxProps.reverse} background={TextoPathBoxProps.bgColor} height="250px" width="90%" className='rounded-full m-auto'>
+                        <p className={`text-[${TextoPathBoxProps.textColor}] text-[15rem] xs:text-9xl sm:text-9xl md:text-9xl lg:text-9xl xl:text-[10rem]`}>{TextoPathBoxProps.text}</p>
                     </Marquee>
                 </Fragment>
             )

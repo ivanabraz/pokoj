@@ -4,7 +4,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 const HeroTwoColumns = (HeroTwoColumnsProps) => {
 
     return (
-        <div id={HeroTwoColumnsProps.sectionId} className={`flex flex-wrap w-100 h-[80vh] items-center justify-center text-center my-28 ${HeroTwoColumnsProps.customClass}`}>
+        <div id={HeroTwoColumnsProps.sectionId} className={`flex flex-wrap w-100 
+        h-[100vh] xs:h-[100vh] sm:h-[90vh] md:h-[80vh] lg:h-[80vh] xl:h-[80vh] 2xl:h-[70vh] 
+        items-center justify-center text-center ${HeroTwoColumnsProps.customClass}`}>
             <div className='flex w-[50%] justify-center text-center'>
                 <img 
                     className={`w-[100%] xs:w-[110%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] 2xl:w-[50%] h-auto ${HeroTwoColumnsProps.imgAnimation}`}

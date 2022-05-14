@@ -24,23 +24,25 @@ const Header = () => {
                     animate-[bounce_1.2s_infinite]'>
                     ↓
                 </Link>
+
+                {/* Illustrations */}
                 <HeroChild customClass='absolute w-auto 
-                    h-[25rem] xs:h-[25rem] sm:h-[25rem] md:h-[25rem] lg:h-[25em] xl:h-[25rem]
-                    top-[1em] xs:top-[-6rem] sm:top-0 md:top-[1em] lg:top-[1em] xl:top-[1em]
-                    left-[7em] xs:left-[-1rem] sm:left-0 md:left-[10em] lg:left-[10em] xl:left-[10em]
+                    h-[20rem] xs:h-[20rem] sm:h-[25rem] md:h-[25rem] lg:h-[25em] xl:h-[25rem] 2xl:h-[25rem]
+                    top-[0em] xs:top-[-2rem] sm:top-0 md:top-[1em] lg:top-[1em] xl:top-[1em] 2xl:top-[1em]
+                    left-[7em] xs:left-[-1rem] sm:left-0 md:left-[10em] lg:left-[10em] xl:left-[7em] 2xl:left-[5em]
                     animate-wiggle ' 
-                    img={weapon} alt="Ilustración" zindex="1" 
-                />
+                    img={weapon} alt="Ilustración" zindex="1"/>
                 <HeroChild customClass='absolute w-auto 
-                    h-[40rem] xs:h-[40rem] sm:h-[40rem] md:h-[40rem] lg:h-[40em] xl:h-[40rem]
+                    h-[20rem] xs:h-[20rem] sm:h-[40rem] md:h-[40rem] lg:h-[40em] xl:h-[40rem] 2xl:h-[40rem]
                     bottom-[2rem] 
-                    left-[7em] xs:left-[-1rem] sm:left-0 md:left-[10em] lg:left-[10em] xl:left-[3em]
+                    left-[7em] xs:left-[-1rem] sm:left-0 md:left-[10em] lg:left-[10em] xl:left-[3em] 2xl:left-[3em]
                     animate-spin-speed-45s' 
                     img={dove1} alt="Ilustración" zindex="1"/>
                 <HeroChild customClass='absolute w-auto 
                     h-[15rem] 
                     bottom-[6rem] 
                     left-[37rem]
+                    invisible xs:invisible sm:invisible md:invisible lg:invisible xl:invisible 2xl:visible
                     animate-spin-acw-speed-15s' 
                     img={heart} alt="Ilustración" zindex="1"
                     animate-spin-speed-3/>
@@ -49,25 +51,25 @@ const Header = () => {
                     top-5 right-[40rem]
                     invisible xs:invisible sm:invisible md:invisible lg:invisible xl:invisible 2xl:visible
                     animate-wiggle-speed-15s' 
-                    img={dove2} alt="Ilustración" zindex="1"
-                />
+                    img={dove2} alt="Ilustración" zindex="1"/>
                 <HeroChild customClass='absolute w-auto 
                     h-[23rem] 
                     bottom-[2rem] right-[33rem]
                     invisible xs:invisible sm:invisible md:invisible lg:invisible xl:invisible 2xl:visible
                     animate-spin-speed-45s'
-                    img={earth} alt="Ilustración" zindex="1"
-                />
+                    img={earth} alt="Ilustración" zindex="1"/>
                 <HeroChild customClass='absolute w-auto 
-                    h-[20rem] top-[5rem] right-[5rem]
-                    animate-spin-speed-35s' 
-                    img={peaceSign} alt="Ilustración" zindex="1"
-                />
+                    h-[15rem] xs:h-[15rem] sm:h-[25rem] md:h-[25rem] lg:h-[25em] xl:h-[25rem] 2xl:h-[25rem]
+                    top-[5rem]
+                    right-[5rem]
+                    animate-spin-speed-35s'
+                    img={peaceSign} alt="Ilustración" zindex="1"/>
                 <HeroChild customClass='absolute w-auto 
-                    h-[45rem] bottom-5 right-[5rem]
+                    h-[20rem] xs:h-[20rem] sm:h-[25rem] md:h-[35rem] lg:h-[35em] xl:h-[40rem] 2xl:h-[40rem]
+                    bottom-5
+                    right-[0rem] xs:right-[0rem] sm:right-[5rem] md:right-[5rem] lg:right-[5em] xl:right-[5rem] 2xl:right-[5rem]
                     animate-wiggle' 
-                    img={hand} alt="Ilustración" zindex="1"
-                />
+                    img={hand} alt="Ilustración" zindex="1"/>
             </div>
         </Fragment>
     );
