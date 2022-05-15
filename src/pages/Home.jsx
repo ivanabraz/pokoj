@@ -66,7 +66,7 @@ const Home = () => {
                     textLine1='Kim był Mahatma Gandhi?'
                     textLine2='¿Quién fue Mahatma Gandhi?'
                     width='100%' 
-                    height='80vh'
+                    height='100vh'
                     bgImg={MahatmaGandhiScrollImg1} 
                     bgAlt='Mahatma Gandhi'
                     bgImg2={MahatmaGandhiScrollImg2} 
@@ -99,7 +99,7 @@ const Home = () => {
                         textLine1='Kim jest Malala Yousafzai?'
                         textLine2='¿Quién es Malala Yousafzai?'
                         width='100%' 
-                        height='80vh' 
+                        height='100vh' 
                         bgImg={MalalaYousafzaiScrollImg1} 
                         bgAlt='Malala Yousafzai'
                         bgImg2={MalalaYousafzaiScrollImg2} 
@@ -135,7 +135,7 @@ const Home = () => {
                         textLine1='Kim był Nelson Mandela?'
                         textLine2='¿Quién fue Nelson Mandela?'
                         width='100%' 
-                        height='80vh' 
+                        height='100vh' 
                         bgImg={NelsonMandelaScrollImg1} 
                         bgAlt='Nelson Mandela'
                         bgImg2={NelsonMandelaScrollImg2} 

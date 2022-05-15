@@ -6,7 +6,7 @@ function HeroBgScroller(HeroBgScrollerProps) {
     return (
         <Fragment>
             <div className="flex w-100 relative items-center justify-center overflow-hidden
-            h-[100vh] xs:h-[100vh] sm:h-[100vh] md:h-[80vh] lg:h-[80vh] xl:h-[80vh] 2xl:h-[80vh]" id={HeroBgScrollerProps.sectionId}>
+            h-[100vh] xs:h-[100vh] sm:h-[100vh] md:h-[100vh] lg:h-[100vh] xl:h-[100vh] 2xl:h-[100vh]" id={HeroBgScrollerProps.sectionId}>
                 <Marquee
                     duration={10000}
                     background="#000"
