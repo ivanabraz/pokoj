@@ -167,7 +167,7 @@ const Home = () => {
                     imgAnimation='animate-spin-speed-45s'
                 />
             {/* End */}
-            <div className='text-center py-[15em]' id="end">
+            <div className='text-center py-[15em] px-10' id="end">
                 <p className='text-[4rem]'>
                     <span className='text-[#466BA6]'>Złaz </span>
                     <span className='text-[#CE4425]'>Świętego </span>
