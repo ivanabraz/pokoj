@@ -14,7 +14,7 @@ const HeroTwoColumns = (HeroTwoColumnsProps) => {
                     src={HeroTwoColumnsProps.img} alt="Mahatma Gandhi"
                 />
             </div>
-            <div className='flex flex-col h-auto p-20 justify-center text-center
+            <div className='flex flex-col h-auto p-10 justify-center text-center
             w-[100%] xs:w-[100%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] 2xl:w-[35%]'>
                 <p className='text-[#ffffff] font-light text-xl '>
                     {HeroTwoColumnsProps.textLine1}
