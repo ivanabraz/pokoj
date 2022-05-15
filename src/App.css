@@ -93,6 +93,12 @@
 }
 
 /* Styles */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+html {
+  scroll-behavior: smooth;
+}
 body{
   background-color: #000;
   font-family: 'GTF', sans-serif;
@@ -101,9 +107,6 @@ body{
 }
 a {
   text-decoration: none;
-}
-html {
-  scroll-behavior: smooth;
 }
 .texto-path-box--styles{
   overflow: hidden !important;
