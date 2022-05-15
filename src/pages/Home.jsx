@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import TextoPathBox from '../components/TextoPathBox/TextoPathBox';
 import HeroQuote from '../components/HeroQuote/HeroQuote';
 import HeroCharacters from '../components/HeroCharacters/HeroCharacters';
