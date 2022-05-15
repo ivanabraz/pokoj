@@ -34,7 +34,7 @@ const Header = () => {
                     img={weapon} alt="Ilustración" zindex="1"/>
                 <HeroChild customClass='absolute w-auto 
                     h-[20rem] xs:h-[20rem] sm:h-[40rem] md:h-[40rem] lg:h-[40em] xl:h-[40rem] 2xl:h-[40rem]
-                    bottom-[2rem] 
+                    bottom-[3rem] xs:bottom-[3rem] sm:bottom-[3rem] md:bottom-[2rem] lg:bottom-[2rem] xl:bottom-[2rem] 2xl:bottom-[2rem]
                     left-[-1rem] xs:left-[-1rem] sm:left-0 md:left-[10em] lg:left-[10em] xl:left-[3em] 2xl:left-[3em]
                     animate-spin-speed-45s' 
                     img={dove1} alt="Ilustración" zindex="2"/>
