@@ -66,7 +66,7 @@ const Home = () => {
                     textLine1='Kim był Mahatma Gandhi?'
                     textLine2='¿Quién fue Mahatma Gandhi?'
                     width='30%' 
-                    height='80vh'
+                    height='100vh'
                     bgImg={MahatmaGandhiScrollImg1} 
                     bgAlt='Mahatma Gandhi'
                     bgImg2={MahatmaGandhiScrollImg2} 
