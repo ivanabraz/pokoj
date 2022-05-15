@@ -104,7 +104,10 @@ a {
 }
 html {
   scroll-behavior: smooth;
-} 
+}
+.texto-path-box--styles{
+  overflow: hidden !important;
+}
 
 /* Marquee */
 .marquee-container:not(.horizontal)::before {

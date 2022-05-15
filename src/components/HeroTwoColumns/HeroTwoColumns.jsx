@@ -5,7 +5,7 @@ const HeroTwoColumns = (HeroTwoColumnsProps) => {
 
     return (
         <div id={HeroTwoColumnsProps.sectionId} className={`flex flex-wrap w-100 
-        h-[100vh] xs:h-[100vh] sm:h-[90vh] md:h-[80vh] lg:h-[80vh] xl:h-[80vh] 2xl:h-[70vh] 
+        h-[auto] xs:h-[auto] sm:h-[auto] md:h-[80vh] lg:h-[80vh] xl:h-[80vh] 2xl:h-[70vh] 
         items-center justify-center text-center ${HeroTwoColumnsProps.customClass}`}>
             <div className='flex justify-center text-center
             w-[100%] xs:w-[100%] sm:w-[100%] md:w-[50%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%]'>
