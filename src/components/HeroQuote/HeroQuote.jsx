@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 function HeroQuote(HeroQuoteProps) {
     return (
         <Fragment>
-            <div className="flex-col w-full h-[70vh] flex justify-center items-center content-center" id={HeroQuoteProps.sectionId}>
+            <div className="flex-col w-full h-[70vh] flex justify-center items-center content-center p-12" id={HeroQuoteProps.sectionId}>
                 <p className='text-center text-[#ffffff] font-medium
                 text-4xl pt-20'>
                     {HeroQuoteProps.quoteLine1}

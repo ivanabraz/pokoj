@@ -14,7 +14,7 @@ import hand from '../../images/hand.svg';
 const Header = () => {
     return (
         <Fragment>
-            <div className="flex-col w-100 h-screen relative flex justify-center items-center" id="index">
+            <div className="flex-col w-100 h-screen relative flex justify-center items-center overflow-hidden" id="index">
                 <h1 className='flex text-center text-[#ffffff] font-regular py-5 z-10
                 text-9xl xs:text-9xl sm:text-9xl md:text-9xl lg:text-[15rem] xl:text-[15rem]'>
                     Pokój
