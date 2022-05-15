@@ -15,7 +15,6 @@
   <a href="https://github.com/ivanabraz">
     <img src="./readme/github.png" alt="github" width="35" height="35">
   </a>
-  <img src="./readme/emoji.png" alt="Taiyaki emoji" width="35" height="26"> 
   <a href="https://www.linkedin.com/in/ivanabraz/">
     <img src="./readme/linkedin.png" alt="linkedin" width="35" height="35">
   </a>
